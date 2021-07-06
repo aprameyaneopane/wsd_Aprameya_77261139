@@ -1,0 +1,146 @@
+.go-top {
+  height: 40px;
+  width: 80px;
+  border: 2px solid #68a015;
+  background-color: rgba(79, 179, 179, 0.349);
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1;
+}
+
+.go-top a {
+  color: aliceblue;
+}
+
+.nav-and-logo {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  /* wont get ovelapped*/
+}
+
+.first-body {
+  position: relative;
+  height: 45vh;
+}
+
+.blue-contet {
+  position: relative;
+}
+
+.three-pics {
+  position: absolute;
+  top: -15%;
+}
+
+.three-pics .one {
+  margin-left: -520px;
+}
+
+.three-pics .two {
+  margin-right: -520px;
+}
+
+.three-pics .three {
+  margin-top: -550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1650px) {
+  .three-pics {
+    top: -10%;
+  }
+  .three-pics .one {
+    margin-left: -500px;
+  }
+  .three-pics .two {
+    margin-right: -500px;
+    margin-top: -50px;
+  }
+  .three-pics .student-info {
+    margin-top: -430px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .three-pics {
+    top: -5%;
+  }
+  .three-pics .one {
+    margin-left: -310px;
+  }
+  .three-pics .two {
+    margin-right: -300px;
+    margin-top: -50px;
+  }
+  .three-pics .student-info {
+    margin-top: -400px;
+    height: 280px;
+    width: 400px;
+  }
+  .three-pics img {
+    height: 280px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 780px) {
+  .three-pics {
+    top: -5%;
+  }
+  .three-pics .one {
+    margin-left: 0px;
+  }
+  .three-pics .two {
+    margin-right: 0px;
+    margin-top: 20vw;
+  }
+  .three-pics .student-info {
+    padding: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.295);
+    margin-top: -75vw;
+    height: 50.5vw;
+    width: 90vw;
+  }
+  .three-pics img {
+    border: 2px solid rgba(0, 0, 0, 0.342);
+    height: 40.5vw;
+    width: 60vw;
+  }
+}
+
+@media (max-width: 515px) {
+  .three-pics {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 50%;
+  }
+  .three-pics .student-info {
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.295);
+    margin-top: 0px;
+    height: 80%;
+  }
+}
+/*# sourceMappingURL=position.css.map */

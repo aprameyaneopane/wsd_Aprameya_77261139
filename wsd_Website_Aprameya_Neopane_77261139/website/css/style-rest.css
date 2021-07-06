@@ -1,0 +1,54 @@
+.rest-behind-nav {
+  /* container height will be same as picture height */
+  width: 100%;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("/images/white.jpg");
+  background-size: cover;
+}
+
+.rest-behind-nav .top-box {
+  margin-top: -10px;
+  height: auto;
+}
+
+.rest-behind-nav .top-box h2 {
+  font-size: 90px;
+  color: #329632;
+  cursor: pointer;
+}
+
+#about-body .blue-content {
+  background-color: #ddddc2;
+  /* margin-top: 200px; */
+}
+
+#about-body .blue-box {
+  padding-top: 80px;
+  height: auto;
+}
+
+#about-body h2 {
+  color: black;
+  line-height: 60px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#about-body .blue-box {
+  background-color: rgba(255, 228, 196, 0);
+}
+
+#about-body .blue-box p {
+  color: black;
+  text-align: justify;
+}
+/*# sourceMappingURL=style-rest.css.map */

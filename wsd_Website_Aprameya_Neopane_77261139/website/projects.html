@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aprameya Neopane" />
+    <meta name="description" content="Personal Website" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/position.css">
+    <link rel="stylesheet" href="css/smart-menu.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/style-rest.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Aprameya | Projects</title>
+    <link rel="shortcut icon" href="images/icon.svg" type="image/x-icon">
+
+    <style>
+        .rest-behind-nav {
+            background-image: url(images/white.jpg);
+        }
+
+        #resume {
+            background: url(images/proj.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: #ddddc2;
+        }
+
+        .student-info {
+            background-image: url(images/bg.svg);
+            background-repeat: no-repeat;
+        }
+
+        #labs {
+            background-image: url(images/code-gif.svg);
+            background-size: cover;
+            background-position: 30vh;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .exercises .labs-flex {
+            background-image: url(images/bg.svg);
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script src="js/menu.js"></script>
+
+    <div class="go-top">
+        <a href="#in-top">Go Top</a>
+    </div>
+
+    <section class="topper" id="in-top">
+        <div class="top-half">
+            <div class="rest-behind-nav" data-aos="fade" data-aos-offset="220"
+                style=" background-image: url(images/white.jpg); background-size: cover;">
+
+                <div class="top-content">
+                    <div class="top-box">
+                        <div class="container-body" data-aos="fade-down" data-aos-offset="220">
+                            <h2 id="proj">Projects</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="nav-and-logo flex nav-container">
+                    <div class="logo" data-aos="slide-right" data-aos-offset="220">
+                        <a href="index.html"><img class="logo" src="images/logo.svg" alt="logo"></a>
+                    </div>
+                    <div class="navigation">
+                        <div class="hamburger" onclick="myFunction()">
+                            <img src="images/bars-solid.svg" alt="menu">
+                        </div>
+                        <ul class="flex nav-links" id="myTopnav">
+                            <li><a href="index.html" onclick="myFunction()" target="_blank">Home</a></li>
+                            <li><a href="about.html" onclick="myFunction()">About</a></li>
+                            <li><a href="projects.html" onclick="myFunction()" target="_blank">Projects</a></li>
+                            <li><a href="resume.html" onclick="myFunction()" target="_blank">Resume</a></li>
+                            <li><a href="contact.html" onclick="myFunction()" target="_blank">Contact</a></li>
+                            <li class="btn btn-li flex"><a href="index.html#labs" onclick="myFunction()"
+                                    target="_blank">Labs</a></li>
+                        </ul>
+                    </div>
+
+                </nav>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container-body">
+            <div class="lab-works">
+                <header>
+                    <h1 style="color: black; margin: 50px 0px;" data-aos="fade-down" data-aos-offset="220">
+                        The Following Are My Dummy Projects
+                    </h1>
+                    <p data-aos="fade-down" data-aos-offset="400">
+                        These projects are meant to show my work and are not used for real world applications
+                    </p>
+                </header>
+                <div class="exercises">
+                    <div class="html labs-flex" data-aos="flip-down" data-aos-offset="220">
+                        <div class="lab-tabs">
+                            <div class="lab-green"></div>
+                            <div class="lab-yellow"></div>
+                            <div class="lab-red"></div>
+                        </div>
+                        <h3>CLIMATE</h3>
+                        <p>Dummy Site</p>
+                        <p>A site that focuses on full screen home page that is useful for
+                            big events. This type of site can also be handy for musicians and various artists.</p>
+                        <p>
+                            <a class="proj-link"
+                                href="https://wof8bxzuzmonflbwr9joza-on.drv.tw/www.AprameyaClimate.com/"
+                                target="_blank">
+                                Visit Site
+                            </a>
+                        </p>
+                    </div>
+                    <div class="css labs-flex" data-aos="flip-down" data-aos-offset="220">
+                        <div class="lab-tabs">
+                            <div class="lab-green"></div>
+                            <div class="lab-yellow"></div>
+                            <div class="lab-red"></div>
+                        </div>
+                        <h3>BUSINESS</h3>
+                        <p>Dummy Site</p>
+                        <p>A site that focuses on business enterprises.
+                            This is a site that can be utilized to upscale a small busines or to take already
+                            established businesses to another level. </p>
+                        <p>
+                            <a target="_blank" class="proj-link"
+                                href="https://wof8bxzuzmonflbwr9joza-on.drv.tw/www.AprameyaBusiness.com/">
+                                Visit Site
+                            </a>
+                        </p>
+                    </div>
+                    <div class="js labs-flex" data-aos="flip-up" data-aos-offset="220">
+                        <div class="lab-tabs">
+                            <div class="lab-green"></div>
+                            <div class="lab-yellow"></div>
+                            <div class="lab-red"></div>
+                        </div>
+                        <h3>MY DOGS</h3>
+                        <p>Just For Fun</p>
+                        <p>A fun website that I created for my dogs as practice for HTML and CSS.
+                            You can find pictures of them here, feel free to check them out by visiting the link below.
+                        </p>
+                        <p>
+                            <a target="_blank" class="proj-link"
+                                href="https://wof8bxzuzmonflbwr9joza-on.drv.tw/www.AprameyasDog.com/">
+                                Visit Site
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content container-body">
+            <div class="footer-grid" data-aos="fade" data-aos-offset="220">
+                <div class="left">
+                    <div class="logo">
+                        <a href="index.html"><img class="logo" src="images/logo.svg" alt="logo"></a>
+                    </div>
+                    <div class="follow-me">
+                        <h3>
+                            Follow Me
+                        </h3>
+                        <div class="socials">
+                            <div class="ig">
+                                <a href="https://www.instagram.com/vprvmeyv/" target="blank"> <img src="images/ig.svg"
+                                        alt="instagram">
+                                </a>
+                            </div>
+                            <div class="yt">
+                                <a href="https://www.youtube.com/channel/UC4c1uI-bRxFBKs9buGXXLfQ" target="blank">
+                                    <img src="images/yt.svg" alt="youtube"></a>
+                            </div>
+                            <div class="lol">
+                                <a href="https://matchhistory.sg.leagueoflegends.com/en/#match-history/SG/522203531"
+                                    target="blank">
+                                    <img src="images/lol.svg" alt="lol"> </a>
+                            </div>
+                            <div class="tt">
+                                <a href="https://www.tiktok.com/@ludens_lol?lang=en" target="blank">
+                                    <img src="images/tt.svg" alt="tik tok">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <h3>Navigate</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html" target="blank">Home</a></li>
+                        <li><a href="about.html" target="blank">About</a></li>
+                        <li><a href="projects.html" target="blank">Projects</a></li>
+                        <li><a href="resume.html" target="blank">Resume</a></li>
+                        <li><a href="contact.html" target="blank">Contact</a></li>
+                        <li><a href="index.html#labs" target="blank">Labs</a></li>
+                    </ul>
+                    <div class="connect">
+                        <h3>Stay Connected</h3>
+                        <div class="connect-options">
+                            <div class="call">
+                                <p><a href="tel:+4733378901" target="blank">+977 9863604247</a></p>
+                            </div>
+                            <div class="mail">
+                                <p><a href="mailto:A.Neopane7429@student.leedsbeckett.ac.uk" class="long-mail"
+                                        target="blank">A.Neopane7429@student.leedsbeckett.ac.uk</a>
+                                    <a class="phone-mail"
+                                        href="mailto:A.Neopane7429@student.leedsbeckett.ac.uk">Email</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cpy-rgt">
+                <p>&copy; Aprameya Neopane 2021</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 350,
+        });
+    </script>
+
+</body>
+
+</html>

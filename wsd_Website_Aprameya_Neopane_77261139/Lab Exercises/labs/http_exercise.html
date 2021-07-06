@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Aprameya Neopane" />
+    <meta name="description" content="HTTP exercise" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="questions-answers">
+        <h1>1. What is the Hypertext Transfer Protocol (HTTP)</h1>
+        <p>Answer: Hypertext Transfer Protocol (HTTP) is an application protocol
+            that forms the foundation for communication on the World Wide Web(WWW).
+            It enables the exchange of hypertext, a structured text that uses logical
+            links (hyperlinks), between nodes.</p>
+    </div>
+
+    <div class="questions-answers">
+        <h1>2. Why is HTTP called a stateless protocol?</h1>
+        <p>Answer: HTTP is called as a stateless protocol because each request
+            is executed independently, without any knowledge of the requests
+            that were executed before it, which means once the transaction
+            ends the connection between the browser and the server is also lost.</p>
+    </div>
+
+    <div class="questions-answers">
+        <h1>3. Describe the three phases of establishing a session using client-server protocols such as HTTP</h1>
+        <p>Answer: The three phases of client-server protocols are: </p>
+
+        <p> a. The client establishes a TCP connection (or the appropriate connection if the transport layer is not
+            TCP). With TCP the default port, for an HTTP server on a computer, is port 80. Other ports can also be used,
+            like 8000 or 8080. The URL of a page to fetch contains both the domain name, and the port number, though the
+            latter can be omitted if it is 80.</p>
+
+        <p> b. The client sends its request, and waits for the answer. A client request consists of text directives,
+            separated by CRLF (carriage return, followed by line feed), divided into three blocks
+            c. The server processes the request, sending back its answer, providing a status code and appropriate data.
+        </p>
+    </div>
+
+    <div class="questions-answers">
+        <h1>4. Describe the parameters on a get and post request.</h1>
+        <p>Answer: GET parameters (also called URL parameters or query strings) are
+            used when a client, such as a browser, requests a particular resource
+            from a web server using the HTTP protocol. These parameters are
+            usually name-value pairs, separated by an equals sign =.
+            They can be used for a variety of things, as explained below.</p>
+        <p>In POST method the data is sent to the server as a package in a separate communication with the processing
+            script.Data sent through POST method will not visible in the URL. It is more
+            secure than GET because user-entered information is never visible in the URL
+            query string or in the server logs.</p>
+    </div>
+
+    <div class="questions-answers">
+        <h1>5. What are the HTTP response status code and What do the HTTP status codes, 200, and 404 indicate?</h1>
+        <p>Answer: HTTP response status codes are those codes which indicate whether a specific HTTP request has been
+            successfully completed.</p>
+        <p>The HTTP status code 200 indicates that the request has been succeeded.</p>
+        <p>The HTTP status code 404 indicates that the server cannot find the requested resource. </p>
+    </div>
+
+    <div class="questions-answers">
+        <h1>6. What are HTTP cookies? Give an example.</h1>
+        <p>Answer: An HTTP cookie (web cookie, browser cookie) is a small piece
+            of data that a server sends to the user's web browser.Typically,
+            it's used to tell if two requests came from the same
+            browser — keeping a user logged-in, for example.
+            It remembers stateful information for the stateless HTTP protocol.
+        </p>
+    </div>
+
+    <div class="questions-answers">
+        <h1>7. Why are cookies a security issue?</h1>
+        <p>Answer: Since the data in cookies doesn't change, cookies themselves
+            aren't harmful. They can't infect computers with viruses or other
+            malware. However, some cyberattacks can hijack cookies and enable
+            access to your browsing sessions. The danger lies in their
+            ability to track individuals' browsing histories.
+        </p>
+    </div>
+
+    <div class="questions-answers">
+        <h1>8. Describe session hijacking and XSS</h1>
+        <p>Answer: Session hijacking, also known as TCP session hijacking, is a
+            method of taking over a web user session by surreptitiously obtaining
+            the session ID and masquerading asthe authorized user. Once the user's
+            session ID has been accessed, the attacker can masquerade as that
+            user and do anything the user is authorized to do on the network.
+            Cross-site scripting (XSS) is a type of injection security attack
+            in which an attacker injects data, such as a malicious script,
+            into content from otherwise trusted websites. Cross-site scripting
+            attacks happen when an untrusted source is allowed to inject its
+            own code into a web application, and that malicious code is
+            included with dynamic content delivered to a victim's browser.</p>
+    </div>
+
+    <div class="questions-answers">
+        <h1>9. Describe Cross-site request forgery(CSRF)</h1>
+        <p>Answer: Cross-Site Request Forgery (CSRF) is an attack that forces an
+            end user to execute unwanted actions on a web application in which
+            they’re currently authenticated. With a little help of social
+            engineering (such as sending a link via email or chat),
+            an attacker may trick the users of a web application into
+            executing actions of the attacker’s choosing. If the victim
+            is a normal user, a successful CSRF attack can force the user
+            to perform state changing requests like transferring funds,
+            changing their email address, and so forth. If the victim is
+            an administrative account, CSRF can compromise the entire web
+            application.</p>
+    </div>
+
+    <div class="questions-answers">
+        <h1>10. What are Cross-site HTTP requests (CORS) and what requests use CORS?</h1>
+        <p>Answer: Cross-site HTTP requests (CORS) is an HTTP-header based mechanism that allows a server to indicate
+            any other origins (domain, scheme, or port) than its own from which a browser should permit loading of
+            resources.
+            The requests are:
+        <p>a. Invocations of the XMLHttpRequest or Fetch APIs</p>
+        <p>b. WebGL textures</p>
+        <p>c. Web Fonts (for cross-domain font usage in @font-face within CSS)</p>
+        <p>d. CSS Shapes from images.</p>
+        <p>e. Images/video frames drawn to a canvas using drawImage()</p>
+    </div>
+
+</body>
+
+</html>

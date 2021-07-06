@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aprameya Neopane" />
+    <meta name="description" content="Personal Website" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/position.css">
+    <link rel="stylesheet" href="css/smart-menu.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Aprameya | Home</title>
+    <link rel="shortcut icon" href="images/icon.svg" type="image/x-icon">
+
+    <style>
+        .behind-nav {
+            background-image: url(images/white.jpg);
+        }
+
+        .student-info {
+            background-image: url(images/bg.svg);
+            background-repeat: no-repeat;
+        }
+
+        #labs {
+            background-image: url(images/code-gif.svg);
+            background-size: cover;
+            background-position: 30vh;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .exercises .labs-flex {
+            background-image: url(images/bg.svg);
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="go-top">
+        <a href="#in-top">Go Top</a>
+    </div>
+
+    <script src="js/menu.js"></script>
+
+
+    <section class="topper" id="in-top">
+        <div class="top-half">
+            <div class="behind-nav">
+                <header class="left-content container-top">
+                    <!-- <div class="container-top"> -->
+                    <h1 data-aos="fade-up" data-aos-duration="1000">Hi. I'm Aprameya. Welcome to my site.</h1>
+                    <p data-aos="fade-up" data-aos-offset="200">Follow my plans, see my work progress, and
+                        contact me all in one place. Let us manage our time
+                        flawlessly and be on top of everything by working together.
+                    </p>
+                    <div class="buttons" style="overflow-x: hidden;">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn"
+                            data-aos="fade-right" data-aos-offset="100">Stream</a>
+                        <a href="#labs" class="btn-blue" data-aos="fade-left" data-aos-offset="100">Labs</a>
+                    </div>
+                    <!-- </div> -->
+                </header>
+                <div class="right-content">
+                    <div class="pink-pic" data-aos="fade-down" data-aos-duration="1000">
+                        <img src="images/code.svg" alt="people">
+                    </div>
+                </div>
+            </div>
+
+            <nav class="nav-and-logo flex nav-container">
+                <div class="logo" data-aos="slide-right" data-aos-offset="220">
+                    <a href="index.html"><img class="logo" src="images/logo.svg" alt="logo"></a>
+                </div>
+                <div class="navigation">
+                    <div class="hamburger" onclick="myFunction()">
+                        <img src="images/bars-solid.svg" alt="menu">
+                    </div>
+                    <ul class="flex nav-links" id="myTopnav">
+                        <li><a href="index.html" onclick="myFunction()">Home</a></li>
+                        <li><a href="about.html" onclick="myFunction()" target="_blank">About</a></li>
+                        <li><a href="projects.html" onclick="myFunction()" target="_blank">Projects</a></li>
+                        <li><a href="resume.html" onclick="myFunction()" target="_blank">Resume</a></li>
+                        <li><a href="contact.html" onclick="myFunction()" target="_blank">Contact</a></li>
+                        <li class="btn btn-li flex"><a href="#labs" onclick="myFunction()">Labs</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="blue-content">
+            <div class="first-body container-body">
+                <div class="three-pics">
+                    <img class="one" src="images/pic2.svg" data-aos="fade-right" alt="pic1" data-aos-offset="420">
+                    <img class="two" src="images/pic1.svg" data-aos="fade-left" alt="pic1" data-aos-offset="420">
+                    <div class="three student-info flex" data-aos="fade" data-aos-offset="420">
+                        <div class="tabs">
+                            <div class="t green"></div>
+                            <div class="t yellow"></div>
+                            <div class="t red"></div>
+                        </div>
+                        <header class="flex my-name">
+                            <h1><span>Name:</span> Aprameya Neopane </h1>
+                            <p><span> Level :</span> 4</p>
+                            <p><span> Section: </span> E</p>
+                            <p><span> University ID: </span>77261139</p>
+                            <p><span> Course: </span> BSc. Computing</p>
+                        </header>
+                    </div>
+                </div>
+            </div>
+            <div class="curve">
+                <img src="images/blue-curve.webp" alt="curve">
+            </div>
+            <div class="blue-box">
+                <div class="container-body" data-aos="fade-down" data-aos-offset="220">
+                    <h2>Lets Explore My Journey As A Developer, Together.</h2>
+                    <p>Feel free to explore my site to get more information
+                        about me and my projects along with my
+                        <a href="#labs" class="xyz">Lab Exercises</a>
+                        for the Website Developmet module. If you have any
+                        queries, you can forward a messege to me using the
+                        <a href="contact.html" class="xyz" target="_blank">Contact</a> page.
+                        Also, you can follow me on various social media platforms
+                        using the links available at the <a href="#fut" class="xyz">End
+                            Of This Page</a>
+                    </p>
+                    <div class="blue-box-image" data-aos="fade-down" data-aos-offset="220">
+                        <img src="images/coding.svg" alt="links">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="labs">
+        <div class="container-body">
+            <div class="lab-works">
+                <header>
+                    <h1 style="color: black; margin: 50px 0px;">Lab Exercises</h1>
+                </header>
+                <div class="exercises">
+                    <div class="html labs-flex" data-aos="flip-down" data-aos-offset="220">
+                        <div class="lab-tabs">
+                            <div class="lab-green"></div>
+                            <div class="lab-yellow"></div>
+                            <div class="lab-red"></div>
+                        </div>
+                        <h3>HTML</h3>
+                        <p><a target="_blank"
+                                href="website-lab-copy/labs/html5-structural-elements.html">html5-structural-elements.html</a>
+                        </p>
+                        <p><a target="_blank"
+                                href="website-lab-copy/labs/html5-validation.html">html5-validation.html</a></p>
+                        <p><a target="_blank"
+                                href="website-lab-copy/labs/html5-common-elements.html">html5-common-elements.html</a>
+                        </p>
+                    </div>
+                    <div class="css labs-flex" data-aos="flip-down" data-aos-offset="220">
+                        <div class="lab-tabs">
+                            <div class="lab-green"></div>
+                            <div class="lab-yellow"></div>
+                            <div class="lab-red"></div>
+                        </div>
+                        <h3>CSS</h3>
+                        <p><a target="_blank" href="website-lab-copy/labs/style-page.html">style-page.html</a></p>
+                        <p><a target="_blank" href="website-lab-copy/labs/style-page-grid.html">style-page-grid.html</a>
+                        </p>
+                    </div>
+                    <div class="js labs-flex" data-aos="flip-up" data-aos-offset="220">
+                        <div class="lab-tabs">
+                            <div class="lab-green"></div>
+                            <div class="lab-yellow"></div>
+                            <div class="lab-red"></div>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p><a target="_blank"
+                                href="website-lab-copy/silly-story-generator/index.html">silly-story-generator</a></p>
+                        <p><a target="_blank"
+                                href="website-lab-copy/dynamic-shopping-list/index.html">dynamic-shopping-list</a></p>
+                    </div>
+                    <div class="https labs-flex" data-aos="flip-up" data-aos-offset="220">
+                        <div class="lab-tabs">
+                            <div class="lab-green"></div>
+                            <div class="lab-yellow"></div>
+                            <div class="lab-red"></div>
+                        </div>
+                        <h3>HTTP and Security</h3>
+                        <p><a target="_blank" href="website-lab-copy/labs/http_exercise.html">http_exercise.html</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="fut">
+        <div class="footer-content container-body">
+            <div class="footer-grid" data-aos="fade" data-aos-offset="220">
+                <div class="left">
+                    <div class="logo">
+                        <a href="index.html"><img class="logo" src="images/logo.svg" alt="logo"></a>
+                    </div>
+                    <div class="follow-me">
+                        <h3>
+                            Follow Me
+                        </h3>
+                        <div class="socials">
+                            <div class="ig">
+                                <a href="https://www.instagram.com/vprvmeyv/" target="blank"> <img src="images/ig.svg"
+                                        alt="instagram">
+                                </a>
+                            </div>
+                            <div class="yt">
+                                <a href="https://www.youtube.com/channel/UC4c1uI-bRxFBKs9buGXXLfQ" target="blank">
+                                    <img src="images/yt.svg" alt="youtube"></a>
+                            </div>
+                            <div class="lol">
+                                <a href="https://matchhistory.sg.leagueoflegends.com/en/#match-history/SG/522203531"
+                                    target="blank">
+                                    <img src="images/lol.svg" alt="lol"> </a>
+                            </div>
+                            <div class="tt">
+                                <a href="https://www.tiktok.com/@ludens_lol?lang=en" target="blank">
+                                    <img src="images/tt.svg" alt="tik tok">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <h3>Navigate</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html" target="_blank">About</a></li>
+                        <li><a href="projects.html" target="_blank">Projects</a></li>
+                        <li><a href="resume.html" target="_blank">Resume</a></li>
+                        <li><a href="contact.html" target="_blank">Contact</a></li>
+                        <li><a href="#labs">Labs</a></li>
+                    </ul>
+                    <div class="connect">
+                        <h3>Stay Connected</h3>
+                        <div class="connect-options">
+                            <div class="call">
+                                <p><a href="tel:+4733378901" target="blank">+977 9863604247</a></p>
+                            </div>
+                            <div class="mail">
+                                <p><a href="mailto:A.Neopane7429@student.leedsbeckett.ac.uk" class="long-mail"
+                                        target="blank">A.Neopane7429@student.leedsbeckett.ac.uk</a>
+                                    <a class="phone-mail"
+                                        href="mailto:A.Neopane7429@student.leedsbeckett.ac.uk">Email</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cpy-rgt">
+                <p>&copy; Aprameya Neopane 2021</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 350,
+        });
+    </script>
+
+</body>
+
+</html>
